@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    </head>
+<script type="text/javascript" src="http://hsinghhira.github.io/DesignDevta/HSH_Social_Share/js/hsh_socialbutton.js"></script>
+  <body>
+<div class="HSH_Social_Share"></div>
+<script type="text/javascript">
+    $('.HSH_Social_Share').HSHSocialButton(['facebook', 'twitter', 'gplus', 'feedly', 'pocket', 'github', 'addit'], {
+        url: 'http://bplamsal.blogspot.com/', // Share URL
+        githubRepo: 'bplamsal/blog', // Github Repository
+        feedUrl: 'http://feeds.feedburner.com/bplamsal' // Feedburner URL
+    });
+</script>
+    </body>url: '<data:post.url/>', // Share URL
+</html>
